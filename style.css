@@ -2,14 +2,15 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-}
-
-body {
+  }
+  
+  body {
     background-color: rgb(0, 0, 0);
     box-sizing: border-box;
     color: white;
-}
-nav {
+  }
+  
+  nav {
     height: 70px;
     background-color: #171718;
     color: white;
@@ -17,30 +18,30 @@ nav {
     justify-content: space-between;
     padding: 0 70px;
     flex-wrap: wrap;
-}
-
-
-.logo img {
+  }
+  
+  
+  .logo img {
     height: 40px;
     padding: 15px 0;
-}
-
-.navbar ul {
+  }
+  
+  .navbar ul {
     display: flex;
-}
-
-.navbar ul li {
+  }
+  
+  .navbar ul li {
     list-style: none;
     margin: 24px 20px;
     font-size: medium;
-}
-
-.navbar ul li a:hover {
+  }
+  
+  .navbar ul li a:hover {
     font-size: 16.5px;
     color: #0093ff;
-}
-
-.navbar ul li a::before {
+  }
+  
+  .navbar ul li a::before {
     content: '';
     width: 0;
     height: 3px;
@@ -49,9 +50,9 @@ nav {
     left: 50%;
     bottom: -7px;
     transition: 0.4s;
-}
-
-.navbar ul li a::after {
+  }
+  
+  .navbar ul li a::after {
     content: '';
     width: 0;
     height: 3px;
@@ -60,116 +61,119 @@ nav {
     right: 50%;
     bottom: -7px;
     transition: 0.4s;
-}
-
-.navbar ul li a:hover::after,
-.navbar ul li a:hover::before {
+  }
+  
+  .navbar ul li a:hover::after,
+  .navbar ul li a:hover::before {
     width: 60%;
-}
-
-.navbar ul li a {
+  }
+  
+  .navbar ul li a {
     position: relative;
     color: white;
     text-decoration: none;
-}
-
-
-/* *********first section******** */
-.first {
+  }
+  
+  
+  /* *********first section******** */
+  .first {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 50px 0px;
-}
-
-.hero img {
+  }
+  
+  .hero img {
     height: 500px;
     transition: transform 0.5s;
-}
-.hero img:hover{
+  }
+  
+  .hero img:hover {
     transform: translateY(-5px);
-}
-.about {
-    width: 40%;
+  }
+  
+  .about {
+    width: 50%;
     margin-left: 70px;
     flex-wrap: wrap;
-}
-
-.about h1 {
-    font-size: 3.3rem;
+  }
+  
+  .about h1 {
+    font-size: 3rem;
     font-weight: 700;
-}
-
-.disc {
+  }
+  
+  .disc {
     font-size: 1.2rem;
-
-}
-
-.color {
+  
+  }
+  
+  .color {
     color: #ff004f;
-}
-
-.line2 {
+  }
+  
+  .line2 {
     font-size: 1.6rem;
-}
-
-#element {
+  }
+  
+  #element {
     font-size: 1.6rem;
     color: #0093ff;
     font-weight: 700;
-}
-
-.disc {
+  }
+  
+  .disc {
     line-height: 2;
-}
-
-.separation {
+  }
+  
+  .separation {
     height: 4px;
     background-color: gray;
-}
-
-/* ***********pic Skills ******** */
-.second {
+  }
+  
+  /* ***********pic Skills ******** */
+  .second {
     display: flex;
     justify-content: space-between;
     margin: 80px 100px;
-
-}
-.photo {
+  
+  }
+  
+  .photo {
     flex-basis: 40%;
-}
-
-.photo img:hover {
+  }
+  
+  .photo img:hover {
     box-shadow: 0px 0px 30px 8px #26dcba;
     height: 505px;
-}
-
-.skills {
+  }
+  
+  .skills {
     /* background-color: gray; */
     flex-basis: 60%;
     /* display: flex; */
-}
-
-.photo img {
+  }
+  
+  .photo img {
     height: 500px;
     border-radius: 10px;
     margin-left: 80px;
     margin-top: 50px;
     transition: 0.4s;
     border: 5px solid gray;
-
-}
-
-.heading {
+  
+  }
+  
+  .heading {
     text-align: center;
     font-weight: 600;
     font-size: 3rem;
     padding-bottom: 10px;
     position: relative;
     transition: .5s;
-}
-
-.heading:before {
+  }
+  
+  .heading:before {
     content: '';
     width: 0;
     position: absolute;
@@ -179,24 +183,24 @@ nav {
     background-color: #26dcba;
     border-radius: 3px;
     transition: .5s;
-}
-
-.heading:hover::before {
+  }
+  
+  .heading:hover::before {
     width: 28%;
-}
-
-.heading:hover {
+  }
+  
+  .heading:hover {
     font-size: 3.1rem;
-
-}
-
-.skillListing {
+  
+  }
+  
+  .skillListing {
     display: flex;
     margin-top: 30px;
-
-}
-
-.container {
+  
+  }
+  
+  .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
@@ -205,37 +209,37 @@ nav {
     padding: 20px 30px;
     font-size: small;
     grid-gap: 30px;
-
-}
-
-.skillbox {
+  
+  }
+  
+  .skillbox {
     padding: 4px;
     color: #ddd;
     cursor: pointer;
-}
-
-.skillbox:hover>.skilltitle:after,
-.skillbox:hover>.skilltitle:before {
+  }
+  
+  .skillbox:hover>.skilltitle:after,
+  .skillbox:hover>.skilltitle:before {
     width: 20%;
-}
-
-.skillbox:hover .img {
+  }
+  
+  .skillbox:hover .img {
     transform: translateY(-10px);
-}
-
-.skillbox:hover .img img {
+  }
+  
+  .skillbox:hover .img img {
     box-shadow: 0px 0px 15px 6px #26dcba;
-}
-
-.skilltitle {
+  }
+  
+  .skilltitle {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 4px;
     position: relative;
-}
-
-.skilltitle:after {
+  }
+  
+  .skilltitle:after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -245,9 +249,9 @@ nav {
     border-radius: 2px 0 0 2px;
     background-color: #ff004f;
     transition: .5s;
-}
-
-.skilltitle:before {
+  }
+  
+  .skilltitle:before {
     content: '';
     position: absolute;
     bottom: 0;
@@ -257,9 +261,9 @@ nav {
     border-radius: 0 2px 2px 0;
     background-color: #ff004f;
     transition: .5s;
-}
-
-.img img {
+  }
+  
+  .img img {
     height: 90px;
     width: 90px;
     position: relative;
@@ -268,39 +272,39 @@ nav {
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 255, 255);
-}
-
-.img {
+  }
+  
+  .img {
     transition: .5s;
-}
-
-h3 {
+  }
+  
+  h3 {
     padding-bottom: 3px;
     color: white;
     margin-top: 0.5rem;
-}
-
-.skillbox p {
+  }
+  
+  .skillbox p {
     margin-top: 10px;
-}
-
-/* %%%%%%%%%%%projects%%%%%%%%%%% */
-.box1 {
+  }
+  
+  /* %%%%%%%%%%%projects%%%%%%%%%%% */
+  .box1 {
     display: flex;
     justify-content: space-around;
     padding: 70px;
-}
-
-.title {
+  }
+  
+  .title {
     text-align: center;
     padding-top: 40px;
     padding-bottom: 8px;
     font-size: 3rem;
     position: relative;
     transition: .5s;
-}
-
-.title:before {
+  }
+  
+  .title:before {
     content: '';
     width: 0;
     position: absolute;
@@ -310,73 +314,104 @@ h3 {
     background-color: #26dcba;
     border-radius: 3px;
     transition: .5s;
-}
-
-.title:hover::before {
-    width: 30%;
-}
-.title:hover {
+  }
+  
+  .title:hover::before {
+    width: 33%;
+  }
+  
+  .title:hover {
     font-size: 3.1rem;
-
-}
-
-.vid1 video {
+  
+  }
+  
+  .vid1 video {
     height: 270px;
     border: 5px solid gray;
     width: auto;
     transition: .2s;
     border-radius: 4px;
-}
-
-.vid1 video:hover {
+  }
+  
+  .gotLink {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .gotLink h2 {
+    height: 34px;
+    margin-top: 20px;
+    transition: .5s;
+  }
+  
+  
+  .gotLink a {
+    margin-top: 10px;
+    margin-left: 13px;
+    color: #ff004f;
+    font-size: 18px;
+    background: white;
+    line-height: 50px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    text-align: center;
+  }
+  
+  .gotLink a:hover {
+    box-shadow: 0px 0px 20px 1px #26dcba;
+  }
+  
+  
+  .vid1 video:hover {
     box-shadow: 0px 0px 35px 4px #26dcba;
     height: 275px;
-}
-
-.details {
+  }
+  
+  .details {
     width: 50%;
     font-size: 1.4rem;
-
-}
-
-.data {
+  
+  }
+  
+  .data {
     font-size: 1.2rem;
     line-height: 2;
-}
-
-/* %%%%%%%%%%%%%Mini projects%%%%%%% */
-.worklist {
+  }
+  
+  /* %%%%%%%%%%%%%Mini projects%%%%%%% */
+  .worklist {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin: 50px 40px;
-}
-
-.work {
+  }
+  
+  .work {
     border-radius: 10px;
     position: relative;
     overflow: hidden;
-}
-
-.work img {
+  }
+  
+  .work img {
     height: 250px;
     width: 100%;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
-}
-
-.work h2 {
+  }
+  
+  .work h2 {
     margin-bottom: 10px;
     font-weight: 800;
     color: #ff004f;
-}
-
-.work:hover img {
+  }
+  
+  .work:hover img {
     transform: scale(1.1);
-}
-
-.layer {
+  }
+  
+  .layer {
     height: 0;
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.6), #26dcba);
@@ -391,13 +426,14 @@ h3 {
     flex-direction: column;
     text-align: center;
     transition: height 0.5s;
-}
-
-.work:hover .layer {
+  }
+  
+  
+  .work:hover .layer {
     height: 100%;
-}
-
-.layer a {
+  }
+  
+  .layer a {
     margin-top: 30px;
     color: #ff004f;
     font-size: 18px;
@@ -407,31 +443,36 @@ h3 {
     width: 45px;
     border-radius: 50%;
     text-align: center;
-    
-}
-
-/* **********contact********** */
-.row{
+  
+  }
+  
+  /* **********contact********** */
+  .row {
     display: flex;
-    margin:60px;
-}
-.contact-left{
+    margin: 60px;
+  }
+  
+  .contact-left {
     flex-basis: 35%;
     margin-left: 100px;
     margin-top: 10px;
-}
-.contact-left h1{
+  }
+  
+  .contact-left h1 {
     font-size: 40px;
-}
-.contact-left p {
+  }
+  
+  .contact-left p {
     margin-top: 40px;
-}
-.contact-left p i {
+  }
+  
+  .contact-left p i {
     color: #ff004f;
     margin-right: 7px;
     font-size: 25px;
-}
-.social a {
+  }
+  
+  .social a {
     text-decoration: none;
     color: #ababab;
     margin-top: 30px;
@@ -439,170 +480,191 @@ h3 {
     font-size: 30px;
     display: inline-block;
     transition: transform 0.3s;
-}
-.social a:hover{
+  }
+  
+  .social a:hover {
     color: #ff004f;
     transform: translateY(-5px);
-}
-.btn1{
+  }
+  
+  .btn1 {
     display: inline-block;
     margin: 30px auto;
-    padding: 6px 15px; 
+    padding: 6px 15px;
     border-radius: 5px;
     color: white;
     border: 2px solid #ff004f;
     text-decoration: none;
     transition: background 0.5s;
     cursor: pointer;
-}
-.btn1:hover{
-    background : #ff004f;
-}
-.btn2{
+  }
+  
+  .btn1:hover {
+    background: #ff004f;
+  }
+  
+  .btn2 {
     background-color: #ff004f;
-    padding: 10px 60px; 
+    padding: 10px 60px;
     font-size: 18px;
     margin-top: 20px;
-    
-}
-.contact-right{
-   flex-basis: 60%;
+  
+  }
+  
+  .contact-right {
+    flex-basis: 60%;
     margin-right: 90px;
-}
-.contact-right form{
+  }
+  
+  .contact-right form {
     width: 100%;
-}
-form input, form textarea{
+  }
+  
+  form input,
+  form textarea {
     width: 100%;
-    border: 0;;
+    border: 0;
+    ;
     outline: none;
     background: #262626;
     padding: 15px;
-    margin: 15px 0 ;
+    margin: 15px 0;
     color: white;
     border-radius: 6px;
-}
-
-footer{
+  }
+  
+  footer {
     width: 100%;
     text-align: center;
-    background:#262626;
+    background: #262626;
     font-weight: 300;
     padding: 10px 0;
-}
-
-
-
-
-@media screen and (max-width: 768px) {
+  }
+  
+  
+  
+  @media screen and (max-width: 768px) {
     .logo img {
-        height: 30px;
-        padding: 15px 0;
+      height: 30px;
+      padding: 15px 0;
     }
+  
     nav {
-        padding: 0 10px; /* Further reduce padding for smaller screens */
+      padding: 0 10px;
+      /* Further reduce padding for smaller screens */
     }
-
+  
     .navbar ul li {
-        margin: 10px 8px; /* Adjusted margin for smaller screens */
+      margin: 10px 8px;
+      /* Adjusted margin for smaller screens */
     }
-
+  
     .first {
-        flex-direction: column;
-        text-align: center;
-        margin: 60px 10px; /* Adjusted margin for smaller screens */
+      flex-direction: column;
+      text-align: center;
+      margin: 60px 10px;
+      /* Adjusted margin for smaller screens */
     }
+  
     .about h1 {
-        font-size: 2.3rem;
-        font-weight: 700;
+      font-size: 2.3rem;
+      font-weight: 700;
     }
-    
+  
     .disc {
-        font-size: 0.9rem;
-    
+      font-size: 0.9rem;
     }
-    .line2{
-        font-size: 1rem;
+  
+    .line2 {
+      font-size: 1rem;
     }
-
+  
     .hero img {
-        height: auto;
-        width: 100%;
+      height: auto;
+      width: 100%;
     }
-
+  
     .about {
-        width: 100%;
-        margin-left: 0;
+      width: 100%;
+      margin-left: 0;
     }
-
+  
     .photo img {
-        height: 300px;
-       margin: 30px 100px; /* Adjusted margin for smaller screens */
+      height: 300px;
+      margin: 30px 100px;
+      /* Adjusted margin for smaller screens */
     }
-
+  
     .second {
-        flex-direction: column;
-        margin: 40px 10px; /* Adjusted margin for smaller screens */
+      flex-direction: column;
+      margin: 40px 10px;
+      /* Adjusted margin for smaller screens */
     }
-    .skillbox{
-        margin-right: 50px;
+  
+    .skillbox {
+      margin-right: 50px;
     }
+  
     .skills,
     .photo {
-        flex-basis: 100%;
+      flex-basis: 100%;
     }
-
+  
     .container {
-        grid-template-columns: repeat(1, 1fr);
+      grid-template-columns: repeat(1, 1fr);
     }
-
+  
     .box1 {
-        padding: 40px;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-      
+      padding: 40px;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
     }
-
+  
     .title {
-        font-size: 2.5rem;
+      font-size: 2.5rem;
     }
-
+  
     .vid1 video {
-        height: auto;
-        width: 100%;
-        margin: 40px 0px;
-        
+      height: auto;
+      width: 100%;
+      margin-top: 30px;
     }
-
+  
+    .gotLink {
+      margin-bottom: 20px;
+    }
+  
     .data {
-        font-size: 1rem;
+      font-size: 1rem;
     }
-    .work img{
-        margin: auto;
-        height: 250px;
-
+  
+    .work img {
+      margin: auto;
+      height: 250px;
     }
-
+  
     .worklist {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        grid-gap: 20px;
-        margin: 20px 10px; /* Adjusted margin for smaller screens */
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 20px;
+      margin: 20px 10px;
+      /* Adjusted margin for smaller screens */
     }
-
+  
     .row {
-        flex-direction: column;
-        margin: 30px 10px; /* Adjusted margin for smaller screens */
+      flex-direction: column;
+      margin: 30px 10px;
+      /* Adjusted margin for smaller screens */
     }
-
+  
     .contact-left,
     .contact-right {
-        flex-basis: 100%;
-        margin-left: 0;
+      flex-basis: 100%;
+      margin-left: 0;
     }
-
+  
     .btn1 {
-        margin: 20px auto;
+      margin: 20px auto;
     }
-}
+  }
